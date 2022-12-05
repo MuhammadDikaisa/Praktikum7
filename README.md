@@ -116,5 +116,26 @@ Output :
 
 <img width="530" alt="pert11 1" src="https://user-images.githubusercontent.com/115516378/205558801-f9215bbe-74c4-43cd-ac0b-5e52f6cf49b3.png">
 
+# Latihan 11
+
+```python
+import math
+
+a = lambda x: x ** 2
+print(a(46))
+
+b = lambda x,y: x**2 + y**2
+print(b(4,6))
+
+c = lambda *args : sum(args)/len(args)
+print(c(5,7,9,11,10))
+
+d = lambda s: "".join(set(s))
+print(d("Tertimpa"))
+```
+
+Output :
+
+<img width="287" alt="pert11 2" src="https://user-images.githubusercontent.com/115516378/205559269-8133cebf-beba-4f84-a4b2-0dabe7a05514.png">
 
 
